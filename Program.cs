@@ -10,6 +10,7 @@ namespace StacksAndQueues
     {
         static void Main(string[] args)
         {
+
             //Welcome Message
             Console.WriteLine("=-=-=-=-=-Welcome To The Stacks And Queues Program-=-=-=-=-=");
             Console.WriteLine("----------------------------");
@@ -37,6 +38,17 @@ namespace StacksAndQueues
 
             //Display Queue
             linkedListQueue.Display();
+            Console.WriteLine("----------------");
+
+            //Dequeue from queue
+            linkedListQueue.Dequeue();
+
+            //Empty Dequeue
+            linkedListQueue.IsEmpty();
+
+            //Display Queue
+            linkedListQueue.Display();
+            Console.WriteLine("----------------");
 
             Console.ReadLine();
         }
